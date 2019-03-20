@@ -89,6 +89,7 @@ PATCH /v1/permissions?rev={previous_rev}
 ...where ``{previous_rev}`` is the last known revision number for the permissions.
 
 The json payload contains the set of permissions to be deleted.
+
 **Example**
 
 Request
