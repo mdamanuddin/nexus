@@ -56,7 +56,7 @@ services:
     image: "nawer/blazegraph:2.1.5"
 
   web:
-    image: "bluebrain/nexus-web"
+    image: "bluebrain/nexus-web:1.0"
     environment:
       BASE_PATH: "/"
       HOST_NAME: "http://localhost"
